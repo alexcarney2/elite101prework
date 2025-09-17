@@ -16,7 +16,7 @@ def get_user_info():
     return name, age
 
 def display_menu():
-    print("\nHow can I help you today? Please choose an option:")
+    print("How can I help you today? Please choose an option:")
     print("1. Option 1 (Placeholder)")
     print("2. Option 2 (Placeholder)")
     print("3. Option 3 (Placeholder)")
@@ -25,7 +25,7 @@ def display_menu():
 def main():
     welcome_user()
     name, age = get_user_info()
-    print(f"\nNice to meet you, {name}!")
+    print(f"Nice to meet you, {name}!")
 
     while True:
         display_menu()
