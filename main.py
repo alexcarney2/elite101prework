@@ -3,7 +3,7 @@ def welcome_user():
     print("I can help you explore our account options and get started with signing up.")
 
 def get_user_info():
-    name = input("Please enter your name: ").strip()
+    name = input("Please enter your name: ")
     while not name:
         name = input("Name cannot be empty. Please enter your name: ").strip()
 
