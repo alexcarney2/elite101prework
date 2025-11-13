@@ -1,5 +1,3 @@
-import time
-
 def welcome_user():
     print("Hello! Welcome to the Bank Account Assistant Chatbot!")
     print("I can help you explore our account options and get started with signing up.")
